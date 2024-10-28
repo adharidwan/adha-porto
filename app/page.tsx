@@ -98,7 +98,7 @@ export default function Home() {
               <h2 className='text-gray-300 text-3xl text-center mt-3'>Some of my work experience across many field </h2>
           </div>
 
-          <div className='mt-4'>
+          <div className='mt-4 '>
               <section className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-3 mt-4'>
 
                 <div className='flex'>
@@ -116,12 +116,12 @@ export default function Home() {
                 <div className='flex'>
                   <Timeline isLast={false}/>
                   <ExperienceBlock
-                      title='Staff of Programming'
-                      company='Dagozilla ITB'
-                      date='September 2024 - Present'
-                      description='Worked as a programming staff in Dagozilla ITB, a Robotics Team that focuses on Autonomous Soccer Robot Development.'
-                      logo={{ src: '/dagozilla.jpeg', alt: 'Telkom Logo' }}
-                      skills='Skills: C++, Python, ROS, Gazebo, Arduino'
+                      title='Academics Intern'
+                      company='HMIF ITB'
+                      date='October 2024 - Present'
+                      description='Academics Internship as part of the Internship program.               '
+                      logo={{ src: '/hmif.png', alt: 'hmif' }}
+                      skills='Tutoring, Teamwork, Communication'
                   />
                 </div>
 

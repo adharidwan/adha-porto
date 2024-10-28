@@ -28,9 +28,9 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ title, company, date,
 
     return(
         <section className="bg-gray-950">
-            <div className="container text-center">
-                <div className='border-2 border-orange-400 rounded-lg p-6 inline-block h-52 w-11/12'>
-                    <div className='flex items-start'>
+            <div className="container ">
+                <div className='border-2 border-orange-400 rounded-lg p-6 block w-full md:w-[800px] h-auto min-h-[200px] ml-8'>
+                    <div className='flex'>
                         <div className='rounded-lg'>
                             <Image src={logo.src} alt={imageAlt} width={80} height={80} className="object-contain rounded-lg" />
                         </div>
