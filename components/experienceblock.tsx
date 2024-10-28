@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
-import Timeline from './timelinedot';
 
 type Icon = {
     src?: string | StaticImageData;

@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import Navbar from '@/components/navbar';
 import AnimatedText from '@/components/typedtitle';
 import TechStack from '@/components/techstacks';
@@ -63,12 +62,12 @@ export default function Home() {
 
         <section id='about'  className='text-left mt-28 flex items-center mb-36'>
           <section className='mt-2'>
-            <h1 className='text-white mt-5 text-5xl font-poppins'>Hi, It's me</h1>
+            <h1 className='text-white mt-5 text-5xl font-poppins'>Hi, It&apos;s me</h1>
             <h1 className='text-white mt-3 text-5xl font-poppins'>Muhammad Adha Ridwan</h1>
             <AnimatedText/> 
             <h1 className='text-gray-300 mt-5 text-2xl'>Driven by my curiosity and thirst for new knowledge,</h1>
-            <h1 className='text-gray-300 mt-2 text-2xl'>I'm constantly seeking opportunities to learn, grow,</h1>
-            <h1 className='text-gray-300 mt-2 text-2xl'>and challenge myself. With an adaptable mindset, I'm always</h1>
+            <h1 className='text-gray-300 mt-2 text-2xl'>I&apos;m constantly seeking opportunities to learn, grow,</h1>
+            <h1 className='text-gray-300 mt-2 text-2xl'>and challenge myself. With an adaptable mindset, I&apos;m always</h1>
             <h1 className='text-gray-300 mt-2 text-2xl'>ready to embrace the unknown and take on new adventures.</h1>
           </section>
           <Image src='/adha.png' alt='Profile Picture' width={380} height={380} className='rounded-full border-orange-400 border-2 border-opacity-70 shadow ml-10' />
@@ -80,7 +79,7 @@ export default function Home() {
 
         <section id='skills' className='justify-center items-center mt-28 mb-36'>
           <h1 className='text-white text-5xl font-poppins font-bold text-center'>Skills</h1>
-          <h1 className='text-gray-300 mt-3 text-3xl font-poppins text-center'>Here are the some of the skills that i've been honing for the past few years</h1>
+          <h1 className='text-gray-300 mt-3 text-3xl font-poppins text-center'>Here are the some of the skills that i&apos;ve been honing for the past few years</h1>
           <section className='grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-3 mt-4'>
             <TechStack title='Frontend' badges={badgesFrontend}/>
             <TechStack title='Backend' badges={badgesBackend}/>
@@ -137,7 +136,7 @@ export default function Home() {
         <section id="project" className='justify-center items-center mt-24'>
           <div className='mb-14'> 
             <h1 className='text-white text-5xl font-poppins font-bold text-center'>Projects</h1>
-            <h2 className='text-gray-300 text-3xl text-center mt-3'>Some of projects that i've been working on </h2>
+            <h2 className='text-gray-300 text-3xl text-center mt-3'>Some of projects that i&apos;ve been working on </h2>
           </div>
         </section>
 

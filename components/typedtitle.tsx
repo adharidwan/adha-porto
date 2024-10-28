@@ -5,7 +5,7 @@ const AnimatedText: React.FC = () => {
   return (
     <section className="bg-black">
       <h1 className="text-4xl font-bold text-white mt-6 mr-6">
-        I'm a <span className="text-orange-400">
+        I&apos;m a <span className="text-orange-400">
           <TypingEffect
             text={[
               "Robotics Developer",
