@@ -3,7 +3,7 @@ import TypingEffect from 'react-typing-effect'; // Make sure the library is corr
 
 const AnimatedText: React.FC = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-gray-950">
       <h1 className="text-4xl font-bold text-white mt-6 mr-6">
         I&apos;m a <span className="text-orange-400">
           <TypingEffect
