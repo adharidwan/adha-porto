@@ -121,7 +121,7 @@ export default function Home() {
                       date='October 2024 - Present'
                       description='Academics Internship as part of the Internship program.               '
                       logo={{ src: '/hmif.png', alt: 'hmif' }}
-                      skills='Tutoring, Teamwork, Communication'
+                      skills='Skills: Tutoring, Teamwork, Communication'
                   />
                 </div>
 
