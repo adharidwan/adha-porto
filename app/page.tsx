@@ -6,6 +6,7 @@ import AnimatedText from '@/components/typedtitle';
 import TechStack from '@/components/techstacks';
 import ExperienceBlock from '@/components/experienceblock';
 import Timeline from '@/components/timelinedot';
+import ErrorSection from '@/components/errorsection';
 
 const badgesFrontend = [
   { name: 'NextJS', icon: { src: '/nextjs.png', alt: 'NextJs' } },
@@ -25,6 +26,7 @@ const badgesBackend = [
   { name: 'TypeScript', icon: { src: '/TypeScript.svg', alt: 'TypeScript' } },
   { name: 'MongoDB', icon: { src: '/MongoDB.svg', alt: 'MongoDB' } },
   { name: 'PostgreSQL', icon: { src: '/PostgresSQL.svg', alt: 'PostgresSQL' } },
+  { name: 'FastAPI', icon: { src: '/fastapi.svg', alt: 'FastAPI' } },
 ];
 
 const badgesRobotics = [
@@ -130,10 +132,21 @@ export default function Home() {
           <div className="w-[100%] h-0.5 bg-orange-500 animate-growShrink"></div>
         </div>
 
-        <section id="project" className='justify-center items-center mt-24'>
+        <section id="projects" className='justify-center items-center mt-24 mb-36'>
           <div className='mb-14'> 
             <h1 className='text-white text-5xl font-poppins font-bold text-center'>Projects</h1>
             <h2 className='text-gray-300 text-3xl text-center mt-3'>Some of projects that i&apos;ve been working on </h2>
+            {/* <ErrorSection/> */}
+          </div>
+        </section>
+
+        <div className="w-full flex justify-center mt-14">
+          <div className="w-[100%] h-0.5 bg-orange-500 animate-growShrink"></div>
+        </div>
+
+        <section id='education' className='justify-center items-center mt-24 mb-36'>
+          <div>
+            <h1 className='text-white text-5xl font-poppins font-bold text-center mt-24'>Education</h1>
           </div>
         </section>
 
