@@ -55,7 +55,7 @@ export default function Home() {
         <Navbar/>
       </header>
 
-      <main className="bg-gray-950 min-h-screen items-center justify-center">
+      <main className="bg-gray-950 items-center justify-center">
 
         <section id ="Top" className="flex flex-col items-center justify-center mt-8">
           <h1 className="text-6xl font-extrabold mt-24 text-white text-center">Curiosity, Creativity,</h1>
@@ -136,7 +136,7 @@ export default function Home() {
           <div className='mb-14'> 
             <h1 className='text-white text-5xl font-poppins font-bold text-center'>Projects</h1>
             <h2 className='text-gray-300 text-3xl text-center mt-3'>Some of projects that i&apos;ve been working on </h2>
-            {/* <ErrorSection/> */}
+            <ErrorSection/>
           </div>
         </section>
 
@@ -147,6 +147,7 @@ export default function Home() {
         <section id='education' className='justify-center items-center mt-24 mb-36'>
           <div>
             <h1 className='text-white text-5xl font-poppins font-bold text-center mt-24'>Education</h1>
+            <ErrorSection/>
           </div>
         </section>
 
