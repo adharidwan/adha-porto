@@ -7,6 +7,7 @@ import TechStack from '@/components/techstacks';
 import ExperienceBlock from '@/components/experienceblock';
 import Timeline from '@/components/timelinedot';
 import ErrorSection from '@/components/errorsection';
+import EducationBlock from '@/components/educationblock';
 
 const badgesFrontend = [
   { name: 'NextJS', icon: { src: '/nextjs.png', alt: 'NextJs' } },
@@ -94,35 +95,37 @@ export default function Home() {
           <div className="w-[100%] h-0.5 bg-orange-500 animate-growShrink"></div>
         </div>
 
-        <section id='experience' className='justify-center items-center mt-24 mb-36' >
-          <div className='mb-14'> 
+        <section id='experience' className='flex flex-col items-center justify-center py-24' >
+          <div className='mb-4'> 
               <h1 className='text-white text-5xl font-poppins font-bold text-center'>Experience</h1>
               <h2 className='text-gray-300 text-3xl text-center mt-3'>Some of my work experience across many field </h2>
           </div>
 
-          <div className='mt-4 '>
+          <div className=''>
               <section className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-3 mt-4'>
-                <div className='flex'>
-                  <Timeline isLast={false}/>
-                  <ExperienceBlock
-                      title='Academics Intern'
-                      company='HMIF ITB'
-                      date='October 2024 - Present'
-                      description='Academics Internship as part of the Internship program.               '
-                      logo={{ src: '/hmif.png', alt: 'hmif' }}
-                      skills='Skills: Tutoring, Teamwork, Communication'
-                  />
-                </div>
-                <div className='flex'>
-                  <Timeline isLast={false}/>
-                  <ExperienceBlock
-                      title='Staff of Programming'
-                      company='Dagozilla ITB'
-                      date='September 2024 - Present'
-                      description='Worked as a programming staff in Dagozilla ITB, a Robotics Team that focuses on Autonomous Soccer Robot Development.'
-                      logo={{ src: '/dagozilla.jpeg', alt: 'Telkom Logo' }}
-                      skills='Skills: C++, Python, ROS, Gazebo, Arduino'
-                  />
+                <div className='justify-center'>
+                  <div className='flex py-4'>
+                    <Timeline isLast={false}/>
+                    <ExperienceBlock
+                        title='Academics Intern'
+                        company='HMIF ITB'
+                        date='October 2024 - Present'
+                        description='Academics Internship as part of the Internship program.               '
+                        logo={{ src: '/hmif.png', alt: 'hmif' }}
+                        skills='Skills: Tutoring, Teamwork, Communication'
+                    />
+                  </div>
+                  <div className='flex py-4'>
+                    <Timeline isLast={false}/>
+                    <ExperienceBlock
+                        title='Staff of Programming'
+                        company='Dagozilla ITB'
+                        date='September 2024 - Present'
+                        description='Worked as a programming staff in Dagozilla ITB, a Robotics Team that focuses on Autonomous Soccer Robot Development.'
+                        logo={{ src: '/dagozilla.jpeg', alt: 'Telkom Logo' }}
+                        skills='Skills: C++, Python, ROS, Gazebo, Arduino'
+                    />
+                  </div>
                 </div>
               </section>
           </div>
@@ -144,10 +147,42 @@ export default function Home() {
           <div className="w-[100%] h-0.5 bg-orange-500 animate-growShrink"></div>
         </div>
 
-        <section id='education' className='justify-center items-center mt-24 mb-36'>
-          <div>
-            <h1 className='text-white text-5xl font-poppins font-bold text-center mt-24'>Education</h1>
-            <ErrorSection/>
+        <section id='education' className='flex flex-col items-center justify-center py-24'>
+          <div className='mb-12'>
+            <h1 className='text-white text-5xl font-poppins font-bold text-center'>Education</h1>
+            <h2 className='text-gray-300 text-3xl text-center mt-3'>My academic journey so far</h2>
+          </div>
+          <div className=''>
+              <section className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-3 mt-4'>
+                <div className='justify-center'>
+                  <div className='flex py-4'>
+                    <EducationBlock
+                        major='Informatics Engineering'
+                        univ='Institut Teknologi Bandung'
+                        date='2024 - Present'
+                        description='Currently a 2nd year Undergraduate Informatics Engineering, Interested in Cybersecurity, Robotics, Low-Level Computing.'
+                        logo={{ src: '/itb.png', alt: 'ITB Logo' }}
+                        courses='Courses: Data Structure, Algorithm, Programming, Database'
+                    />
+                    <div className='relative ml-8'>
+                      <Timeline isLast={false}/>
+                    </div>
+                  </div>
+                  <div className='flex py-4'>
+                    <EducationBlock
+                        major='Natural Sciences'
+                        univ='SMA IT Assyifa Boarding School Jalancagak'
+                        date='2020 - 2023'
+                        description='Science is a study program that focuses on the application of scientific knowledge to solve problems in various fields.'
+                        logo={{ src: '/assyifa.png', alt: 'SMA Negeri 1 Cimahi Logo' }}
+                        courses='Courses: Mathematics, Physics, Chemistry, Biology'
+                    />
+                    <div className='relative ml-8'>
+                      <Timeline isLast={false}/>
+                    </div>
+                  </div>
+                </div>
+              </section>
           </div>
         </section>
 
