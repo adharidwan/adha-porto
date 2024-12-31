@@ -10,20 +10,20 @@ type Icon = {
 };
 
 type EducationBlockProps = {
-    major?: string;
     univ?: string;
+    major?: string;
     date?: string;
     description?: string;
     logo?: Icon;
     courses?: string;
 }
 
-const EducationBlock: React.FC<EducationBlockProps> = ({ major, univ, date, description, logo,courses}) => {
+const EducationBlock: React.FC<EducationBlockProps> = ({ univ, major, date, description, logo,courses}) => {
     if (!logo?.src) {
         return null;
     }
 
-    const imageAlt = logo?.alt || major || 'univ logo';
+    const imageAlt = logo?.alt || univ || 'univ logo';
 
 
     return(
@@ -36,8 +36,8 @@ const EducationBlock: React.FC<EducationBlockProps> = ({ major, univ, date, desc
                         </div>
 
                         <div className='text-left ml-4'>
-                            <h2 className='text-2xl font-semibold text-gray-200'>{major}</h2>
-                            <h3 className='text-1xl font-semibold text-gray-400'>{univ}</h3>
+                            <h2 className='text-2xl font-semibold text-gray-200'>{univ}</h2>
+                            <h3 className='text-1xl font-semibold text-gray-400'>{major}</h3>
                             <h3 className='text-xs font-semibold text-gray-400'>{date}</h3>
                         </div>
                     </div>
