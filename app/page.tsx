@@ -157,12 +157,13 @@ export default function Home() {
                 <div className='justify-center'>
                   <div className='flex py-4'>
                     <EducationBlock
-                        major='Informatics Engineering'
+                        major='Bachelor of Technology - B.Eng, Informatics Engineering'
                         univ='Institut Teknologi Bandung'
-                        date='2024 - Present'
+                        date='2023 - Present'
                         description='Currently a 2nd year Undergraduate Informatics Engineering, Interested in Cybersecurity, Robotics, Low-Level Computing.'
                         logo={{ src: '/itb.png', alt: 'ITB Logo' }}
                         courses='Courses: Algorithm and Data Structure, Computer Organization and Architecture'
+                        grade=' 3.82 CGPA'
                     />
                     <div className='relative ml-8'>
                       <Timeline isLast={false}/>
@@ -173,9 +174,10 @@ export default function Home() {
                         major='Natural Sciences'
                         univ='SMA IT Assyifa Boarding School Jalancagak'
                         date='2020 - 2023'
-                        description='Science is a study program that focuses on the application of scientific knowledge to solve problems in various fields.'
+                        description='National Science Olympiad Team 2021-2022, Public Relations for Assyifa Scout Council, General Treasurer for SYIFEST 2022'
                         logo={{ src: '/assyifa.png', alt: 'SMA Negeri 1 Cimahi Logo' }}
                         courses='Courses: Mathematics, Physics, Chemistry, Biology'
+                        grade=' 91.83'
                     />
                     <div className='relative ml-8'>
                       <Timeline isLast={false}/>
