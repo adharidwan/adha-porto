@@ -162,7 +162,7 @@ export default function Home() {
                         date='2024 - Present'
                         description='Currently a 2nd year Undergraduate Informatics Engineering, Interested in Cybersecurity, Robotics, Low-Level Computing.'
                         logo={{ src: '/itb.png', alt: 'ITB Logo' }}
-                        courses='Courses: Data Structure, Algorithm, Programming, Database'
+                        courses='Courses: Algorithm and Data Structure, Computer Organization and Architecture'
                     />
                     <div className='relative ml-8'>
                       <Timeline isLast={false}/>
@@ -185,8 +185,10 @@ export default function Home() {
               </section>
           </div>
         </section>
-
       </main>
+
+      <footer className="w-full py-2 bg-black text-white justify-center items-center px-4">
+      </footer>
     </div>
   );
 }
