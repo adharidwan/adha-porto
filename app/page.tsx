@@ -109,7 +109,7 @@ export default function Home() {
                     <ExperienceBlock
                         title='Academics Intern'
                         company='HMIF ITB'
-                        date='October 2024 - Present'
+                        date='October 2024 - Desember 2024'
                         description='Academics Internship as part of the Internship program.               '
                         logo={{ src: '/hmif.png', alt: 'hmif' }}
                         skills='Skills: Tutoring, Teamwork, Communication'
