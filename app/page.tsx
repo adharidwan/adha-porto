@@ -107,6 +107,17 @@ export default function Home() {
                   <div className='flex py-4'>
                     <Timeline isLast={false}/>
                     <ExperienceBlock
+                        title='Technology Development Staff'
+                        company='HMIF ITB'
+                        date='Desember 2024 - Present'
+                        description='Technology Development Staff in HMIF ITB.'
+                        logo={{ src: '/hmif.png', alt: 'hmif' }}
+                        skills='Skills: -'
+                    />
+                  </div>
+                  <div className='flex py-4'>
+                    <Timeline isLast={false}/>
+                    <ExperienceBlock
                         title='Academics Intern'
                         company='HMIF ITB'
                         date='October 2024 - Desember 2024'
