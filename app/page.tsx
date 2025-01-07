@@ -172,7 +172,7 @@ export default function Home() {
                         major='Bachelor of Technology - B.Eng, Informatics Engineering'
                         univ='Institut Teknologi Bandung'
                         date='2023 - Present'
-                        description='Currently a 2nd year Undergraduate Informatics Engineering, Interested in Cybersecurity, Robotics, Low-Level Computing.'
+                        description='Robotics Unit, Interested in Cybersecurity, Robotics, Low-Level Computing.'
                         logo={{ src: '/itb.png', alt: 'ITB Logo' }}
                         courses='Courses: Algorithm and Data Structure, Computer Organization and Architecture'
                         grade=' 3.82 CGPA'
