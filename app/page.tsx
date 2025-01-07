@@ -28,6 +28,7 @@ const badgesBackend = [
   { name: 'MongoDB', icon: { src: '/MongoDB.svg', alt: 'MongoDB' } },
   { name: 'PostgreSQL', icon: { src: '/PostgresSQL.svg', alt: 'PostgresSQL' } },
   { name: 'FastAPI', icon: { src: '/fastapi.svg', alt: 'FastAPI' } },
+  { name: 'SQLite', icon: { src: '/sqlite.svg', alt: 'SQLite' } },
 ];
 
 const badgesRobotics = [
