@@ -29,6 +29,9 @@ const badgesBackend = [
   { name: 'PostgreSQL', icon: { src: '/PostgresSQL.svg', alt: 'PostgresSQL' } },
   { name: 'FastAPI', icon: { src: '/fastapi.svg', alt: 'FastAPI' } },
   { name: 'SQLite', icon: { src: '/sqlite.svg', alt: 'SQLite' } },
+  { name: 'Rust', icon: { src: '/rust.svg', alt: 'Rust' } },
+  { name: 'Go', icon: { src: '/go.svg', alt: 'Go' } },
+  { name: 'Gin', icon : { src: '/gin.svg', alt: 'Gin' } },
 ];
 
 const badgesRobotics = [
