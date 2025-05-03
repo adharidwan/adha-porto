@@ -8,6 +8,7 @@ import ExperienceBlock from "@/components/experienceblock"
 import Timeline from "@/components/timelinedot"
 import ErrorSection from "@/components/errorsection"
 import EducationBlock from "@/components/educationblock"
+// import MyFooter from "@/components/footer"
 
 const badgesFrontend = [
   { name: "NextJS", icon: { src: "/nextjs.png", alt: "NextJs" } },
@@ -31,6 +32,9 @@ const badgesBackend = [
   { name: "Rust", icon: { src: "/rust.svg", alt: "Rust" } },
   { name: "Go", icon: { src: "/go.svg", alt: "Go" } },
   { name: "Gin", icon: { src: "/gin.svg", alt: "Gin" } },
+  { name: "Hono", icon: {src: "/hono.svg", alt: "Hono"}},
+  { name: "Zod", icon: {src: "/zod.svg", alt: "Zod"}},
+  { name: "Drizzle", icon : {src: "/drizzle.png", alt: "drizzle"}},
 ]
 
 const badgesRobotics = [
@@ -46,6 +50,7 @@ const badgesOther = [
   { name: "Github", icon: { src: "/github.svg", alt: "github" } },
   { name: "Gitlab", icon: { src: "/gitlab.svg", alt: "gitlab" } },
   { name: "Figma", icon: { src: "/figma.svg", alt: "figma" } },
+  { name: "Swagger", icon: {src: "/swagger.svg", alt: "swagger"}},
 ]
 
 export default function Home() {
@@ -221,7 +226,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="w-full py-2 bg-black text-white justify-center items-center px-4"></footer>
+      {/* <MyFooter/> */}
     </div>
   )
 }
